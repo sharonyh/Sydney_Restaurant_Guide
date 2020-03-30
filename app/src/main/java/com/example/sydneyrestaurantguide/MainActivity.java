@@ -28,12 +28,15 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerview);
         recyclerAdapter = new RecyclerAdapter(restaurantList);
 
+
+        //input restaurant information into RecyclerView
         initData();
         initRecyclerView();
 
 
     }
 
+    //initialize RecyclerView
     private void initRecyclerView(){
         RecyclerAdapter recyclerAdapter = new RecyclerAdapter(restaurantList);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

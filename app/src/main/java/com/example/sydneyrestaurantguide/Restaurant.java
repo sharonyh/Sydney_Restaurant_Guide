@@ -64,7 +64,7 @@ public class Restaurant {
                 ", rating='" + rating + '\'' +
                 ", cuisine='" + cuisine + '\'' +
                 ", location='" + location + '\'' +
-//                ", expanded=" + expanded +
+                ", expanded=" + expanded +
                 '}';
     }
 }

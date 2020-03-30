@@ -27,6 +27,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Restau
 
     @Override
     public void onBindViewHolder(@NonNull RestaurantVH holder, int position){
+
+        //set restaurant information for each new instance of Restaurant
         Restaurant restaurant = restaurantList.get(position);
         holder.nameTextView.setText(restaurant.getName());
         holder.cuisineTextView.setText(restaurant.getCuisine());
